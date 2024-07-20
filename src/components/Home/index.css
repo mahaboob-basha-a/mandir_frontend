@@ -1,0 +1,50 @@
+.home-page{
+    height: calc(100vh - 70px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FEF5EC;
+}
+.home-page .text-content{
+    width: 480px;
+    height: 60px;
+    margin-right: 40px;
+}
+.home-page .text-content p{
+    font-size: 14px;
+}
+.home-page .text-content h1{
+    font-size: 30px;
+}
+.home-page .text-content h1 span{
+    color: #F17C00;
+}
+.home-page img{
+    width: 620px;
+}
+.home-page .store-icons{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+}
+.home-page .store-icons img{
+    width: 190px;
+    cursor: pointer;
+}
+@media screen and (max-width:920px) {
+    .home-page img{
+        width: 480px;
+        height: 400px;
+    }
+    .home-page .store-icons{
+        width: 300px;
+    }
+    .home-page .store-icons img{
+        width: 140px;
+        height: 60px;
+        cursor: pointer;
+    }
+}

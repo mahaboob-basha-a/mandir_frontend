@@ -1,0 +1,17 @@
+.top-slider{
+    height: 40vh;
+    width: 100vw;
+    background-color: #FFF0E3;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-slide{
+    padding: 30px;
+    margin-top: 10px;
+}
+.bottom-slide .slder-img{
+    width: 500px;
+    height: 200px;
+}

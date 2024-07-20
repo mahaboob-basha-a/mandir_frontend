@@ -1,0 +1,71 @@
+.login-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #00000060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.login-page .user-card{
+    width: 400px;
+    height: 440px;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 35px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-page .user-card .close-btn{
+    border: 0;
+    background-color: transparent;
+    font-size: 25px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top:-9px;
+    right: 5px;
+    cursor: pointer;
+}
+.login-page .user-card .card-content img{
+    width: 60px;
+}
+.login-page .user-card .card-content h1{
+    font-size: 18px;
+}
+.login-page .user-card .card-content .para1{
+    font-size: 13px;
+    color: #00000090;
+    font-weight: 500;
+}
+.card-content form .input-container{
+    height: 80px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.card-content form .input-container input{
+    outline: none;
+    border: 1px solid #00000050;
+    border-radius: 4px;
+    padding: 0 6px;
+    height: 42px;
+    width: 320px;
+    background-color: #F9FAFB;
+}
+.card-content form .login-btn{
+    width: 320px;
+    height: 45px;
+    border: 0;
+    background-color: #00BD68;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.right-nav-container{
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px #00000020;
+    padding: 10px;
+    position: absolute;
+    top: 85px;
+    right: 25px;
+}
+.right-nav-container p{
+    font-size: 14px;
+    color: #0b0b2e9a;
+    font-weight: 500;
+}
+.right-nav-container .login-btn{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #1877F2;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.right-nav-container .account-details{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #00000020;
+    border-bottom: 1px solid #00000020;
+}
+.right-nav-container .account-details p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.right-nav-container .account-details button{
+    height: 35px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.right-nav-container .help-support{
+    height: 190px;
+    width: 330px;
+}
+.right-nav-container .help-support p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.right-nav-container .help-support img{
+    width: 300px;
+    cursor: pointer;
+}
